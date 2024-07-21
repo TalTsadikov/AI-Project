@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\unity projects\\AI-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D48EA8B-B3B7-0659-38DE-D00B073782D1}|Assembly-CSharp.csproj|c:\\unity projects\\ai-project\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D48EA8B-B3B7-0659-38DE-D00B073782D1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D48EA8B-B3B7-0659-38DE-D00B073782D1}|Assembly-CSharp.csproj|C:\\unity projects\\AI-Project\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D48EA8B-B3B7-0659-38DE-D00B073782D1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D48EA8B-B3B7-0659-38DE-D00B073782D1}|Assembly-CSharp.csproj|C:\\unity projects\\AI-Project\\assets\\scripts\\istrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D48EA8B-B3B7-0659-38DE-D00B073782D1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\istrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D48EA8B-B3B7-0659-38DE-D00B073782D1}|Assembly-CSharp.csproj|c:\\unity projects\\ai-project\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D48EA8B-B3B7-0659-38DE-D00B073782D1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D48EA8B-B3B7-0659-38DE-D00B073782D1}|Assembly-CSharp.csproj|C:\\unity projects\\AI-Project\\assets\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\unity projects\\AI-Project\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -43,27 +43,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\unity projects\\AI-Project\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
               "ToolTip": "C:\\unity projects\\AI-Project\\Assets\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH4AAAALAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwB8AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T14:24:59.719Z"
+              "WhenOpened": "2024-06-30T14:24:59.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "IStrategy.cs",
               "DocumentMoniker": "C:\\unity projects\\AI-Project\\Assets\\Scripts\\IStrategy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\IStrategy.cs",
               "ToolTip": "C:\\unity projects\\AI-Project\\Assets\\Scripts\\IStrategy.cs",
               "RelativeToolTip": "Assets\\Scripts\\IStrategy.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwGgAAAAuAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAA2wGAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T14:04:29.452Z"
+              "WhenOpened": "2024-06-30T14:04:29.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

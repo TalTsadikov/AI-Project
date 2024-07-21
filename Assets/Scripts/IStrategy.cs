@@ -85,18 +85,21 @@ public class ChaseTarget : IStrategy
 {
     readonly Transform entity;
     readonly NavMeshAgent agent;
-    readonly Transform target;
+    readonly Func<Transform> getTarget; 
     bool isPathCalculated;
 
-    public ChaseTarget(Transform entity, NavMeshAgent agent, Transform target)
+    public ChaseTarget(Transform entity, NavMeshAgent agent, Func<Transform> getTarget)
     {
         this.entity = entity;
         this.agent = agent;
-        this.target = target;
+        this.getTarget = getTarget;
     }
 
     public Node.Status Process()
     {
+        Transform target = getTarget(); 
+        if (target == null) return Node.Status.Failure;
+
         if (Vector3.Distance(entity.position, target.position) < 1f)
         {
             return Node.Status.Success;
@@ -114,3 +117,4 @@ public class ChaseTarget : IStrategy
 
     public void Reset() => isPathCalculated = false;
 }
+

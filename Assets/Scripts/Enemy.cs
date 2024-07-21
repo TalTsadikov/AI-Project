@@ -40,7 +40,7 @@ public class Enemy : MonoBehaviour
         // Sequence for chasing the player
         Sequence chasePlayerSeq = new Sequence("ChasePlayer", 200);
         chasePlayerSeq.AddChild(new Leaf("isPlayerInSight?", new Condition(LookForPlayer)));
-        chasePlayerSeq.AddChild(new Leaf("ChasePlayer", new ChaseTarget(transform, agent, player)));
+        chasePlayerSeq.AddChild(new Leaf("ChasePlayer", new ChaseTarget(transform, agent,() => player)));
         //chasePlayerSeq.AddChild(new Leaf("PlayerOutOfSight?", new Condition(PlayerOutOfSight))); // Reset chase condition
 
         // Sequence for searching the last known position

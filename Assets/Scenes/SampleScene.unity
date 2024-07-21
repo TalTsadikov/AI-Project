@@ -4534,15 +4534,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 763700614979fd740b0ca6266609dfff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints: []
+  waypoints:
+  - {fileID: 261573347}
+  - {fileID: 1148677818}
+  - {fileID: 840424815}
+  - {fileID: 670281173}
+  - {fileID: 852177922}
   sightRange: 12
   fieldOfViewAngle: 60
   hearingRange: 5
   attackRange: 2
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
-  noiseSource: {fileID: 0}
+    m_Bits: 8
+  noiseSource: {fileID: 1038627167}
 --- !u!1 &1935273363
 GameObject:
   m_ObjectHideFlags: 0
